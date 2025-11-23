@@ -66,7 +66,7 @@ export default function Checkout() {
   );
 
   if (isSending) {
-    actions = <p>Sending order data...</p>;
+    actions = <span>Sending order data...</span>;
   }
 
   if (data && !error) {
